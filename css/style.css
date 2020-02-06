@@ -1,0 +1,207 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.hero-image {
+	display: flex;
+	background-image: url("https://images.daznservices.com/di/library/GOAL/1b/c5/ronaldinho-barcelona_1slsxexo4gn5z1m0cln77mlj3h.jpg?t=60517865&quality=60&w=1600");
+	background-position: center top;
+	height: 600px;
+	align-items: center;
+	margin: 50px;
+}
+
+.hero-text {
+	padding-left: 30px;
+	line-height: 1.0;
+}
+
+.hero-text h1 {
+	font-size: 50px;
+	color: white;
+}
+
+.hero-text p {
+	font-size: 30px;
+	color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+.overview {
+	text-align: center;
+}
+
+.card-category {
+	display: flex;
+	justify-content: space-evenly;
+	height: 175px;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.card-category h2 {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+	margin: 20px auto;
+	width: 500px;
+}
+
+.card-product {
+	display: flex;
+	box-shadow: 2px 2px 3px;
+	align-items: center;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+.card-product img {
+	width: 175px;
+	height: 175px;
+}
+
+.card-product h2 {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 0.5;
+}
+
+.card-product p {
+	line-height: 0.5;
+}
+
+.sub-card-product {
+	display: block;
+	padding: 10px;
+}
+
+.card-trip {
+	margin-top: 35px;
+	margin-bottom: 100px;
+}
+
+.card-trip img {
+	width: 500px;
+	height: 200px;
+}
+
+.under-image {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left-content {
+	padding: 10px;
+}
+
+.left-content h2 {
+	font-size: 20px;
+	line-height: 0.2;
+}
+
+.left-content p {
+	font-size: 15px;
+	line-height: 1;
+}
+
+.right-content {
+	padding: 10px;
+	font-size: 15px;
+}
+
+.btn-treehouse {
+	background-color: #6AD58B;
+	color: white;
+	font-weight: bold;
+	padding-left: 27px;
+	padding-right: 27px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 4px;
+	transition: background 0.3s;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn-treehouse:hover {
+	background-color: #5BC163;
+}
+
+.btn-yours {
+	background-color: red;
+	color: white;
+	padding: 15px 25px	;
+	border-radius: 100px;
+	font-weight: bold;
+	margin: 0;
+	box-shadow: 0 10px 30px rgba(0,0,0,.2)
+}
+
+.btn-yours:hover {
+	box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 340px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 170px;
+  }
+}
